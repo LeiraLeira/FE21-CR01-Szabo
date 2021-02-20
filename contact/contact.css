@@ -2,6 +2,7 @@
 
 body {
   font-family: sans-serif, Arial, Helvetica;
+  line-height: ;
 }
 a {
   cursor: pointer;
@@ -52,6 +53,7 @@ nav ul li {
 #contact {
   margin-right: 90px;
 }
+#home a:visited,
 #blog a:visited,
 #about-me a:visited,
 #contact a:visited {
@@ -59,15 +61,38 @@ nav ul li {
 }
 #blog a:hover,
 #about-me a:hover,
-#contact a:hover {
+#home a:hover {
   color: rgb(120, 0, 0);
 }
 a {
   text-decoration: none;
 }
-
 #ariel-szabo-logo {
   background-color: rgba(170, 143, 140, 0.6);
+}
+
+/*II.main*/
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  padding: 0.4rem 0.5rem;
+}
+.form-group {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+}
+p,
+form {
+  text-align: center;
+}
+p {
+  margin-top: 9rem;
+  margin-bottom: 2rem;
 }
 
 /*III.footer*/
