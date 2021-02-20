@@ -52,6 +52,7 @@ nav ul li {
 #contact {
   margin-right: 90px;
 }
+#home a:visited,
 #blog a:visited,
 #about-me a:visited,
 #contact a:visited {
