@@ -52,12 +52,13 @@ nav ul li {
 #contact {
   margin-right: 90px;
 }
+#home a:visited,
 #blog a:visited,
 #about-me a:visited,
 #contact a:visited {
   color: white;
 }
-#blog a:hover,
+#home a:hover,
 #about-me a:hover,
 #contact a:hover {
   color: rgb(120, 0, 0);
@@ -71,6 +72,22 @@ a {
 }
 
 /*II.main*/
+
+mark {
+  background-color: white;
+}
+#blog1 {
+  width: 300px;
+  height: 200px;
+}
+#blog-box {
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.p {
+  text-align: center;
+}
 
 /*heading*/
 #heading {
