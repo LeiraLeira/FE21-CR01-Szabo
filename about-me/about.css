@@ -52,14 +52,16 @@ nav ul li {
 #contact {
   margin-right: 90px;
 }
+#home a:visited,
 #blog a:visited,
 #about-me a:visited,
 #contact a:visited {
   color: white;
 }
+}
 #blog a:hover,
-#about-me a:hover,
-#contact a:hover {
+#contact a:hover,
+#home a:hover {
   color: rgb(120, 0, 0);
 }
 a {
@@ -71,6 +73,21 @@ a {
 }
 
 /*II.main*/
+#about-text {
+  margin-top: 8rem;
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+#photo-ariel {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
 
 /*heading*/
 #heading {
